@@ -1,0 +1,11 @@
+{
+	"dev": {
+		"server_api_prefix": "http://192.168.1.210:8888/api"
+	},
+	"stage": {
+		"server_api_prefix": "http://192.168.1.210:8888/api"
+	},
+	"prod": {
+		"server_api_prefix": "http://192.168.1.211:8888/api"
+	}
+}

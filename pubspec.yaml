@@ -1,0 +1,65 @@
+name: flutter_frontend
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 0.0.0+1
+
+environment:
+  sdk: ">=2.17.5 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # File Generation
+  dart_mappable: ^1.2.0
+
+  # Local Storage
+  hive_flutter: ^1.1.0
+
+  # Logging
+  loggy: ^2.0.1
+
+  # Networking
+  http: ^0.13.4
+
+  # Routing
+  go_router: ^4.1.0
+  url_launcher: ^6.1.4
+
+  # Service Locator
+  get_it: ^7.2.0
+
+  # State Management
+  flutter_riverpod: ^1.0.4
+
+  # UI
+  pinput: ^2.2.9
+
+  # Util
+  # collection: ^1.15.0
+  cupertino_icons: ^1.0.2
+  equatable: ^2.0.3
+  jwt_decode: ^0.3.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Linting
+  lint: ^1.8.2
+
+  # File Generation
+  build_runner: ^2.1.10
+  dart_mappable_builder: ^1.2.0
+
+  # Mock
+  mocktail: ^0.3.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+  - config.json

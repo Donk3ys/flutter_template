@@ -1,0 +1,14 @@
+include: package:lint/analysis_options.yaml
+
+analyzer:
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+  errors:
+    invalid_annotation_target: ignore
+
+linter:
+  rules:
+      sort_pub_dependencies: false
+      prefer_const_literals_to_create_immutables: true
+      avoid_print: false
